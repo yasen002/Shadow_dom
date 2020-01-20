@@ -1,0 +1,26 @@
+:root {
+  --yellow: #ffc600;
+  --black: #272727;
+  --primary-color:#cc0000;
+  --secondary-color: #7c0000; 
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  display: grid;
+  grid-template: 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+
+.wrapper{
+  background-color: aqua;
+}
